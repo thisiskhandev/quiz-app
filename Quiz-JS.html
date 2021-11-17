@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Web App</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="inner_content">
+        <h2 class="question">Question will go here...</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="ans1" class="answer" />
+            <label for="ans1" id="option1">Answer option 1</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="ans2" class="answer" />
+            <label for="ans2" id="option2">Answer option 2</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="ans3" class="answer" />
+            <label for="ans3" id="option3">Answer option 3</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="ans4" class="answer" />
+            <label for="ans4" id="option4">Answer option 4</label>
+          </li>
+        </ul>
+        <button id="submit">Submit</button>
+      </div>
+      <div id="showScore" class="scoreArea"></div>
+    </section>
+    <footer>
+      <h4>
+        Developed by
+        <a
+          href="https://www.linkedin.com/in/khan-hassan-m/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Hassan Khan</a
+        >
+        ❤
+      </h4>
+    </footer>
+    <script defer src="script.js"></script>
+    <!-- <script>
+      let a = ["a", "b", "c", "d"];
+      a.forEach(function (value, ind, ddd) {
+        document.write(ind + ": " + value + "<br>");
+      });
+    </script> -->
+  </body>
+</html>
